@@ -1,11 +1,11 @@
-.profile-img {
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-    object-fit: cover;
+html, body {
+    overflow-x: hidden; /* This prevents x-axis scrolling */
+    margin: 0;
+    padding: 0;
 }
 
 .bakground {
+    min-height: 100vh;
     background-color: brown;
 }
 
@@ -36,7 +36,7 @@
     width: 100%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 900px) {
     .navbar-collapse {
         text-align: center;
         border-left: 1px solid #ffc107;
@@ -80,5 +80,3 @@
 .bgcontact i {
     color: #ff6f00;
 }
-
-
